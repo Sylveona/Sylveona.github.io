@@ -1,0 +1,67 @@
+<html lang="en-US">
+
+<head>
+  <title>Svlyeon</title>
+  <link rel="icon" href="https://cdn.glitch.com/9213004a-0779-4b56-a896-b5379b34147e%2Fcircle-cropped.png?v=1605925846351">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="commands.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <a href="../index.html" class="logo"><img src="https://cdn.glitch.com/9213004a-0779-4b56-a896-b5379b34147e%2Fcircle-cropped.png?v=1605925846351"/> Svlyeon</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="../index.html">Home</a></li>
+      <li><a class="active" href="commands.html">Commands</a></li>
+      <li><a href="https://discord.gg/RPEeUkXHky">Support</a></li>
+      <li><a href="./html/invite.html">Invite</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </header>
+  <main>
+    <section class="tabs">
+      <div class="tab-header">
+        <div class="tablink tab-active" onclick="openCity(event,'Animals')">Animals</div>
+        <div class="tablink " onclick="openCity(event,'Fun')">Fun</div>
+      </div>
+  
+      <div style="margin-left:130px">
+  
+        <div id="Animals" class="tab-content category" style="display:block">
+          <p><a>cat</a><br>get Random Cat Image and facts</p>
+          <p><a>dog</a><br>get Random Dog Image and facts</p>
+          <p><a>fox</a><br>get Random Fox Image and facts</p>
+          <p><a>koala</a><br>get Random Koala Image and facts</p>
+          <p><a>panda</a><br>get Random Panda Image and facts</p>
+        </div>
+        
+        <div id="Fun" class="tab-content category" style="display:block">
+          <p><a>8ball</a><br>Returns the answer to your question.</p>
+          <p><a>owo</a><br>OwO What Dis?</p>
+          <p><a>advice</a><br>Get A Fresh Advice.</p>
+          <p><a>chat</a><br>Revive Chat</p>
+          <p><a>clyde</a><br>Write A Something With Clyde Bot.</p>
+          <p><a>discrim</a><br>Get All People Tag.</p>
+          <p><a>enlarge</a><br>enlarge Emoji From smoll To T H I C C.</p>
+          <p><a>joke</a><br>Get A Fresh Joke</p>
+          <p><a>jumble</a><br>Guess The Current Word Given</p>
+          <p><a>meme</a><br>Get A Fresh meme</p>
+          <p><a>neko</a><br>Get A Neko Picture (NSFW)</p>
+          <p><a>trigger</a><br>Trigger Ur Self</p>
+          <p><a>iq</a><br>Get a random Iq returned</p>
+          <p><a>happiness</a><br>Get a happiness returned</p>
+          <p><a>flipcoin</a><br>Flip a coin</p>
+          <p><a>eject</a><br>Kick Someone From Ship!</p>
+        </div>
+      </div>
+  
+      <script type="text/javascript" src="commands.js"></script>
+    </section>
+  </main>
+</body>
+
+</html>
