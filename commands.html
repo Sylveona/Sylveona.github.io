@@ -18,7 +18,7 @@
       <li><a href="../index.html">Home</a></li>
       <li><a class="active" href="commands.html">Commands</a></li>
       <li><a href="https://discord.gg/RPEeUkXHky">Support</a></li>
-      <li><a href="./html/invite.html">Invite</a></li>
+      <li><a href="/invite.html">Invite</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="source.html">Source Code</a></li>
     </ul>
@@ -28,6 +28,15 @@
       <div class="tab-header">
         <div class="tablink tab-active" onclick="openCity(event,'Animals')">Animals</div>
         <div class="tablink " onclick="openCity(event,'Fun')">Fun</div>
+        <div class="tablink " onclick="openCity(event,'Giveaway')">Giveaway</div>
+        <div class="tablink " onclick="openCity(event,'Leveling')">Leveling</div>
+        <div class="tablink " onclick="openCity(event,'Misc')">Misc</div>
+        <div class="tablink " onclick="openCity(event, 'Information')">Information</div>
+        <div class="tablink " onclick="openCity(event, 'Settings')">Settings</div>
+        <div class="tablink " onclick="openCity(event, 'Space')">Space</div>
+        <div class="tablink " onclick="openCity(event, 'Utility')">Utility</div>
+        <div class="tablink " onclick="openCity(event, 'Music')">Music</div>
+        <div class="tablink " onclick="openCity(event, 'Vouch')">Vouch</div>
       </div>
   
       <div style="margin-left:130px">
@@ -58,8 +67,94 @@
           <p><a>flipcoin</a><br>Flip a coin</p>
           <p><a>eject</a><br>Kick Someone From Ship!</p>
         </div>
+
+        <div id="Giveaway" class="tab-content category" style="display:block">
+          <p><a>start</a><br>Start The Giveaway On Your Server.</p>
+          <p><a>reroll</a><br>reroll the current giveaway winner.</p>
+          <p><a>end</a><br>End The Current Giveaway.</p>
+        </div>
+
+        <div id="Leveling" class="tab-content category" style="display:block">
+          <p><a>rank</a><br>Get A Level Information.</p>
+          <p><a>leaderboard</a><br>Get A Top Level/Rank Information.</p>
+        </div>
+
+        <div id="Misc" class="tab-content category" style="display:block">
+          <p><a>amazeme</a><br>Returns random amazing fact/image.</p>
+          <p><a>ascii</a><br>Returns provided text in ascii format.</p>
+          <p><a>channelinvite</a><br>Get Channel invite.</p>
+          <p><a>emojify</a><br>Returns provided text in emojify (emotes) form.</p>
+          <p><a>playstore</a><br>Show Playstore Application Information Of Your Given Name.</p>
+          <p><a>reverse</a><br>Reverses the given text.</p>
+          <p><a>ig</a><br>Show Instagram Account Information</p>
+          <p><a>userid</a><br>get User ID.</p>
+        </div>
+
+        <div id="Information" class="tab-content category" style="display:block">
+          <p><a>anime</a><br>Get A Anime Information.</p>
+          <p><a>corona</a><br>Get A Corona Information.</p>
+          <p><a>imdb</a><br>Get A Series Information</p>
+          <p><a>ping</a><br>Get A ping Information.</p>
+          <p><a>pokedex</a><br>Get A pokemon Information.</p>
+          <p><a>whois</a><br>Get A User Information.</p>
+        </div>
+
+        <div id="Settings" class="tab-content category" style="display:block">
+          <p><a>prefix</a><br>Change The Current Bot Prefix.</p>
+        </div>
+
+        <div id="Space" class="tab-content category" style="display:block">
+          <p><a>astronauts</a><br>Find out how many astronauts are aboard the International Space Station.</p>
+          <p><a>earth</a><br>View a photo of Earth from space.</p>
+          <p><a>iss</a><br>Get the location of the International Space Station.
+            Updates every second.</p>
+          <p><a>neo</a><br>Find out how many Near-Earth objects are near Earth right now.</p>
+        </div>
+
+        <div id="Utility" class="tab-content category" style="display:block">
+          <p><a>membercount</a><br>View Total Of The Member.</p>
+          <p><a>StealEmoji</a><br>Steal Emoji From The Server.</p>
+          <p><a>Suggestion</a><br>Give Suggestion For The Guild.</p>
+          <p><a>s-accept</a><br>Accept The Suggestion Given.</p>
+          <p><a>s-decline</a><br>Decline The Suggestion Given.</p>
+          <p><a>bitcoin</a><br>Retrieve today's bitcoin rates.</p>
+          <p><a>say</a><br>Repeat The Text Given.</p>
+          <p><a>eval</a><br>Evaluating A Code</p>
+          <p><a>binary</a><br>Text To Binary</p>
+          <p><a>decode</a><br>Decode Binary</p>
+          <p><a>server-info</a><br>Show Server Information</p>
+          <p><a>updates</a><br>Show Next Comamnds In Future</p>
+          <p><a>math</a><br>math commands</p>
+          <p><a>poll</a><br>make a poll</p>
+          <p><a>urban</a><br>Urban Dictionary</p>
+          <p><a>channelinfo</a><br>Show Channel Information</p>
+          <p><a>stats</a><br>Show Svlyeon Stats</p>
+          <p><a>dm</a><br>Dm a user</p>
+          <p><a>nuke</a><br>Nuke a channel.</p>
+        </div>
+
+        <div id="Music" class="tab-content category" style="display:block">
+          <p><a>play</a><br>Play the song and feel the music.</p>
+          <p><a>stop</a><br>Stop the music and take rest.</p>
+          <p><a>resume</a><br>Resume the Current Stoped Song.</p>
+          <p><a>skip</a><br>Skip the current song.</p>
+          <p><a>pause</a><br>Pause the cureent playing Song</p>
+          <p><a>drop</a><br>Drop The Song From Queue.</p>
+          <p><a>jump</a><br>Jump to any song you like.</p>
+          <p><a>loop</a><br>Loop Your Queue and have fun.</p>
+          <p><a>np</a><br>Get the name of current playing song</p>
+          <p><a>queue</a><br>Get all the song name which are in queue.</p>
+          <p><a>volume</a><br>Manage the volume of the song.</p>
+        </div>
+
+        <div id="Vouch" class="tab-content category" style="display:block">
+          <p><a>vouch</a><br>Vouch User.</p>
+          <p><a>profile</a><br>Show User Profile Total Vouch.</p>
+          <p><a>setchannel</a><br>Set Channel For Vouch System.</p>
+        </div>
+
       </div>
-  
+        </div> 
       <script type="text/javascript" src="commands.js"></script>
     </section>
   </main>
