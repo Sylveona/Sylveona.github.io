@@ -188,10 +188,10 @@ a {
 .gallery {
     margin: 5px;
     float: left;
-    width: 390px;
+    width: 340px;
 }
 .gallery img {
-    width: 100%;
+    width: 80%;
     height: auto;
     filter: drop-shadow(0 5px 3px #000000);
 }
